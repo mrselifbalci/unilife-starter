@@ -22,7 +22,7 @@ Create a responsive multi-page app using react-router to display data fetched fr
 
 ## Resources
 - [Link to API](https://unilife-server.herokuapp.com)
-- [Link to Figma](https://www.figma.com/file/CLDMZlPS7KkJoZr3Azk0b9/sweet-berries-cooking-school?node-id=0%3A1) 
+- [Link to Figma](https://www.figma.com/file/5jw7GzTSMxZ5A9H9FjDYRR/UniLife?node-id=0%3A1) 
 
 ## Criteria for Assessment
 
