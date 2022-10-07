@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --light-blue:#00A2E1;
+    --dark-blue:#3A5295;
+    --bg-black:#000000;
+    --bg-white:#ffffff;
+    --text-white:#ffffff;
+    --text-black:#000000;
+    --secondary-color-text:#CED3D8;
+    --secondary-color-bg:#F6FAFD;
+}
+
+a{
+    text-decoration: none;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
