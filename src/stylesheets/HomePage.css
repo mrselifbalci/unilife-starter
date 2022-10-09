@@ -1,4 +1,121 @@
 .homepage-container{
-    height: 100vh;
-    background-color: gray;
+    height: 127vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanation{
+    background-color: var(--secondary-color-bg);
+    height: 50vh;
+    width: 80%;
+    border-radius: 16px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explanation-header{
+    font-weight:400;
+    margin-bottom:64px;
+}
+
+.explanation-specification-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search, .compare, .bills{
+    width: 25%;
+    text-align: center;
+    margin: 0px 16px;
+}
+
+.search h3, .compare h3, .bills h3{
+    font-weight: 400;
+    margin: 16px 0px;
+}
+
+.search-icon, .compare-icon, .bills-icon{
+    font-size: 64px;
+    color: var(--dark-blue);
+}
+
+.search p, .compare p, .bills p{
+    font-size: 12px;
+}
+
+.search-and-compare{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 16px 0px;
+}
+
+.left-container{
+    width: 20%;
+    display: grid;
+    grid-template: auto auto auto auto auto/ 15% 85%;
+    grid-template-areas:
+    'house s-header'
+    'house s-text'
+    'heart f-header'
+    'heart f-text'
+    'heart btn';
+    margin: 40px 0px 56px 0px;
+}
+
+.selection-icon{
+    grid-area: house;
+}
+
+.selection-header{
+    grid-area: s-header;
+}
+
+.selection-text{
+    grid-area: s-text;
+}
+
+.favorite-icon{
+    grid-area: heart;
+}
+
+.favorite-header{
+    grid-area: f-header;
+}
+
+.favorite-text{
+    grid-area: f-text;
+}
+
+.search-compare-button{
+    grid-area: btn;
+    width: 60%;
+    background: var(--dark-blue);
+    border: none;
+    color: var(--text-white);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.selection-icon, .favorite-icon{
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+.selection-header, .favorite-header{
+    font-weight:400;
+    margin-bottom: 12px;
+}
+
+.selection-text, .favorite-text{
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.right-container img{
+    width: 200px;
 }
