@@ -11,17 +11,18 @@ import { FaRegHeart } from "react-icons/fa";
 
 
 
-function Homepage() {
+function Homepage({baseUrl}) {
 
   const bannerHeader = 'Find student homes with bills included'
   const bannerText = 'A simple and faster way to search for student accommodation'
 
   return (
     <div className='homepage-container'>
+
       <Banner bannerHeader={bannerHeader} bannerText={bannerText}/>
-      <FindHomes/>
-      <CityCard/>
-      
+      <FindHomes baseUrl={baseUrl}/>
+      <CityCard baseUrl={baseUrl}/>
+
       <button>See All Cities</button>
 
       <div className='explanation'>
