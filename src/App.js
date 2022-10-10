@@ -17,8 +17,8 @@ function App() {
         <Header/>
         <Routes>
             <Route path='/' element={<HomePage baseUrl={baseUrl}/>}/>
-            <Route path='/citydetails' element={<CitiesDetailsPage baseUrl={baseUrl}/>}/>
             <Route path='/allcities' element={<SeeAllCitiesPage baseUrl={baseUrl}/>}/>
+            <Route path='/citydetails' element={<CitiesDetailsPage baseUrl={baseUrl}/>}/>
             <Route path='/homedetails' element={<HomeDetailPage baseUrl={baseUrl}/>}/>
         </Routes>
         <Footer/>

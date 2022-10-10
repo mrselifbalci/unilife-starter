@@ -20,13 +20,14 @@ function Homepage({baseUrl}) {
     <div className='homepage-container'>
 
       <Banner bannerHeader={bannerHeader} bannerText={bannerText}/>
+
       <FindHomes baseUrl={baseUrl}/>
 
       <h2 className='header-city-cards'>Student accommodations in our top cities</h2>
 
       <CityCard baseUrl={baseUrl}/>
 
-      <button className='see-all-cities'>See All Cities</button>
+      <a href='/allcities'><button className='see-all-cities'>See All Cities</button></a>
 
       <div className='explanation'>
         <h2 className='explanation-header'>Compare all inclusive student homes.</h2>

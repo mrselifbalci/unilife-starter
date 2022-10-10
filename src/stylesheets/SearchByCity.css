@@ -1,0 +1,19 @@
+.city-container{
+    width:70%;
+    display: grid;
+    grid-template: auto auto auto auto auto / 25% 25% 25% 25%;
+    grid-gap: 12px 12px;
+    margin-bottom: 72px;
+    background-color: blue;
+}
+
+.city-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid var(--secondary-color-text);
+    width: 216px;
+    height: 56px;
+    border-radius: 8px;
+}
