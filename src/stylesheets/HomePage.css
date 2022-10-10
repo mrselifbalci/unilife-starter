@@ -4,6 +4,23 @@
     align-items: center;
 }
 
+.header-city-cards{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 48px 0px 32px 0px;
+}
+
+.see-all-cities{
+    font-size: 16px;
+    width:160px;
+    height: 32px;
+    background: var(--dark-blue);
+    border: none;
+    color: var(--text-white);
+    border-radius: 8px;
+    margin: 40px 0px 24px 0px;
+}
+
 .explanation{
     background-color: var(--secondary-color-bg);
     width: 80%;
@@ -96,7 +113,7 @@
     grid-area: btn;
     font-size: 16px;
     width:160px;
-    height: 40px;
+    height: 32px;
     background: var(--dark-blue);
     border: none;
     color: var(--text-white);

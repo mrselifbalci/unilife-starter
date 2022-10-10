@@ -12,18 +12,11 @@ function CityCard({baseUrl}) {
     .catch(err=>console.log(err))
   },[])
 
-  const skyline={
-    backgroundImage: `url("${city[0]?.image_url}")`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center"
-  }
-
   return (
     <div className='card-container'>
       {
         city.map((item)=>{
-          return <div className='card-card' style={skyline}>
+          return <div className='card-card' key={item._id} style={{backgroundImage:`url('${item.image_url}')`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
             <div className="card-overlay"></div>
             <h2 className='city-name'>{item.name}</h2>
             <p className='number-properties'>{item.property_count} properties</p>
