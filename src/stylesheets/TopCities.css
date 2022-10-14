@@ -1,0 +1,20 @@
+.top-cities-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-top-cities{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 48px 0px 32px 0px;
+}
+
+.card-container{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(299px, 1fr));
+    grid-gap: 40px 40px;
+    justify-items: center;
+}

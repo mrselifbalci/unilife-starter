@@ -2,12 +2,11 @@ import React from 'react'
 import '../stylesheets/HomePage.css'
 import Banner from '../components/Banner'
 import FindHomes from '../components/FindHomes'
-import CityCard from '../components/CityCard'
-import { FaSearchLocation } from "react-icons/fa";
+import TopCities from '../components/TopCities'
+import { FaSearchLocation, FaRegHeart } from "react-icons/fa";
 import { MdChecklistRtl } from "react-icons/md";
 import { IoReceiptOutline } from "react-icons/io5";
 import { BsHouseDoor } from "react-icons/bs";
-import { FaRegHeart } from "react-icons/fa";
 import Person from "../assets/person.png"
 
 
@@ -24,9 +23,7 @@ function Homepage({baseUrl}) {
 
       <FindHomes baseUrl={baseUrl}/>
 
-      <h2 className='header-city-cards'>Student accommodations in our top cities</h2>
-
-      <CityCard baseUrl={baseUrl}/>
+      <TopCities baseUrl={baseUrl}/>
 
       <a href='/allcities'><button className='see-all-cities'>See All Cities</button></a>
 
