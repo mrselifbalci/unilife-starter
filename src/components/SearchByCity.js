@@ -16,7 +16,7 @@ function SearchByCity({baseUrl}) {
         <div className='city-container'>
             {
                 city.map((item)=>{
-                return <p key={item._id}>{item.name}</p>
+                return <a href="/citydetails" key={item._id}>{item.name}</a>
                 })
             }
         </div>

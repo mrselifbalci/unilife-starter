@@ -8,6 +8,7 @@ import { MdChecklistRtl } from "react-icons/md";
 import { IoReceiptOutline } from "react-icons/io5";
 import { BsHouseDoor } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
+import Person from "../assets/person.png"
 
 
 
@@ -61,7 +62,7 @@ function Homepage({baseUrl}) {
           <button className='search-compare-button'>Search&Compare</button>
         </div>
         <div className='right-container'>
-          <img src='https://images.unsplash.com/photo-1611701710755-3cb5920c6cfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80' alt='Person with smartphone'/>
+          <img src={Person} alt='Person with smartphone'/>
         </div>
       </div>
 

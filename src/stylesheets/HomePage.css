@@ -1,4 +1,5 @@
 .homepage-container{
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,17 +73,17 @@
 }
 
 .left-container{
-    width: 23%;
+    width: 250px;
+    height: 100%;
     display: grid;
-    grid-template: auto auto auto auto auto/ 10% 90%;
-    grid-gap: 8px 16px;
+    grid-template: auto auto auto auto auto / 10% 90%;
+    grid-gap: 16px 16px;
     grid-template-areas:
     'house s-header'
     'house s-text'
     'heart f-header'
     'heart f-text'
     'heart btn';
-    margin-bottom: 56px;
 }
 
 .selection-icon{
@@ -132,9 +133,10 @@
 
 .selection-text, .favorite-text{
     font-size: 16px;
-    margin-bottom: 24px;
 }
 
 .right-container img{
-    width: 200px;
+    position: relative;
+    top: 20px;
+    width: 300px;
 }
