@@ -1,0 +1,43 @@
+.header-container{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--light-blue);
+    padding: 0px 48px;
+}
+
+.header-left a{
+    color: var(--text-white);
+    font-size: 24px;
+}
+
+.icon-house{
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.header-right button{
+    color: var(--text-white);
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+
+.shortlist{
+    margin-right: 48px;
+}
+
+.icon-heart{
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+}
+
+.icon-envelope{
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+}

@@ -1,0 +1,142 @@
+.homepage-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-city-cards{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 48px 0px 32px 0px;
+}
+
+.see-all-cities{
+    font-size: 16px;
+    width:160px;
+    height: 32px;
+    background: var(--dark-blue);
+    border: none;
+    color: var(--text-white);
+    border-radius: 8px;
+    margin: 40px 0px 24px 0px;
+}
+
+.explanation{
+    background-color: var(--secondary-color-bg);
+    width: 80%;
+    border-radius: 16px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explanation-header{
+    font-weight:400;
+    margin: 56px;
+    font-size: 32px;
+}
+
+.explanation-specification-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search, .compare, .bills{
+    width: 25%;
+    text-align: center;
+    margin: 0px 16px 56px 16px;
+}
+
+.search h3, .compare h3, .bills h3{
+    font-weight: 400;
+    margin: 16px 0px;
+    font-size: 24px;
+}
+
+.search-icon, .compare-icon, .bills-icon{
+    font-size: 64px;
+    color: var(--dark-blue);
+}
+
+.search p, .compare p, .bills p{
+    font-size: 16px;
+}
+
+.search-and-compare{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 16px 0px;
+}
+
+.left-container{
+    width: 250px;
+    height: 100%;
+    display: grid;
+    grid-template: auto auto auto auto auto / 10% 90%;
+    grid-gap: 16px 16px;
+    grid-template-areas:
+    'house s-header'
+    'house s-text'
+    'heart f-header'
+    'heart f-text'
+    'heart btn';
+}
+
+.selection-icon{
+    grid-area: house;
+}
+
+.selection-header{
+    grid-area: s-header;
+}
+
+.selection-text{
+    grid-area: s-text;
+}
+
+.favorite-icon{
+    grid-area: heart;
+}
+
+.favorite-header{
+    grid-area: f-header;
+}
+
+.favorite-text{
+    grid-area: f-text;
+}
+
+.search-compare-button{
+    grid-area: btn;
+    font-size: 16px;
+    width:160px;
+    height: 32px;
+    background: var(--dark-blue);
+    border: none;
+    color: var(--text-white);
+    border-radius: 8px;
+}
+
+.selection-icon, .favorite-icon{
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+.selection-header, .favorite-header{
+    font-size: 24px;
+    font-weight:400;
+}
+
+.selection-text, .favorite-text{
+    font-size: 16px;
+}
+
+.right-container img{
+    position: relative;
+    top: 20px;
+    width: 300px;
+}

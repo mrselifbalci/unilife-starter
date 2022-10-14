@@ -1,0 +1,11 @@
+.cities-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-search-by-city{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 48px 0px 32px 0px;
+}
