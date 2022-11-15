@@ -4,7 +4,7 @@ Create a responsive multi-page app using react-router to display data fetched fr
 
 # **Learning Outcome(s)**
 
-- Use react-router to create multiple pages (e.g., contact, about, etc.)
+- Use react-router to create multiple pages 
 - Clear usage of a component tree to structure data flow.
 - Understanding of when and where to use hooks or not.
 - Ability to break down a website into reusable components.
