@@ -13,12 +13,11 @@ Create a responsive multi-page app using react-router to display data fetched fr
 
 ## **Notes**
 
-- Use functional components and hooks to create their projects.
+- Use functional components and hooks to create your projects.
 - Dynamically add child components 
 - Show and hide some elements on screen, conditional rendering
 - Filter data and show only relevant content
 - Include form as a contact form
-- Implement a search function
 
 ## Resources
 - [Link to API](https://unilife-server.herokuapp.com)
