@@ -1,0 +1,20 @@
+.header-container{
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00A2E1;
+    ;
+}
+
+#logo {
+    margin-left: 64px;
+}
+
+.link-container{
+    display: flex;
+}
+
+#favorites, #contact-us{
+    margin-right: 36px;
+}
