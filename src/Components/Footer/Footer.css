@@ -1,0 +1,22 @@
+.footer-container{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.footer-left-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-right-container{
+    display:flex;
+    align-items: center;
+}
+
+.footer-left-container p,
+.footer-right-container p{
+    margin: 40px 8px;
+}
