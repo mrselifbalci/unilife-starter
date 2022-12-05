@@ -10,8 +10,8 @@ function Footer() {
             <p>Privacy & Cookie Policies</p>
         </div>
         <div className='footer-right-container'>
-            <p>2022</p>
-            <p>&#169;UniLife</p>
+            <p>&#169;&nbsp;2022</p>
+            <p>UniLife</p>
         </div>
     </div>
   )
