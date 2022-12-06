@@ -1,0 +1,8 @@
+.top-cities-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-card{
+    margin: 40px;
+}
