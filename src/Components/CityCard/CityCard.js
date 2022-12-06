@@ -15,8 +15,11 @@ function CityCard({city, cardStyle, imageUrl, imgWidth, imgHeight, txtColor, img
 
   return (
     <div className={cardStyle}>
-        <div style={imageStyle}>
+        <div style={imageStyle} className='name-container'>
             <h3>{city.name}</h3>
+            {
+                cardStyle === "top-city-card" && <p>{city.property_count} Properties</p>
+            }
         </div>
         
     </div>
