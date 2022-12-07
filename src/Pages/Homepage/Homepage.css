@@ -7,13 +7,21 @@
     margin: 40px;
 }
 
+.inclusive-outside-wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
 .inclusive-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
     background-color: #F6FAFD;
+    width:88%;
     height: 488px;
+    border-radius:24px;
 }
 
 .search-compare-bills-container{
