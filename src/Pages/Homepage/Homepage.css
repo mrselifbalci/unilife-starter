@@ -10,28 +10,22 @@
 .inclusive-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
     background-color: #F6FAFD;
-
+    height: 488px;
 }
 
 .search-compare-bills-container{
     display: flex;
 }
 
-.search-wrapper,
-.compare-wrapper,
-.bills-wrapper{
+.inclusive-wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 250px;
-}
-
-.search-wrapper p,
-.compare-wrapper p,
-.bills-wrapper p{
+    height: 200px;
     text-align: center;
 }

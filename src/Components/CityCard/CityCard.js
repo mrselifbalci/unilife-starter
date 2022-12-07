@@ -1,28 +1,27 @@
 import React from 'react'
 import './CityCard.css'
 
-function CityCard({city, cardStyle, imageUrl, imgWidth, imgHeight, txtColor, imgBorder}) {
+function CityCard({city}) {
 
 
 
     const imageStyle={
-        backgroundImage:`url("${imageUrl}")`,
-        width:imgWidth,
-        height:imgHeight,
-        color:txtColor,
-        borderRadius:imgBorder
+        backgroundImage:`url("${city.image_url}")`,
+        backgroundSize:'cover',
+        backgroundPosition:'center',
+        backgroundRepeat:'no-repeat',
+        width:"400px",
+        height:"300px",
+        color:"white",
+        borderRadius:"24px",
+        margin: "16px"
     }
 
   return (
-    <div className={cardStyle}>
         <div style={imageStyle} className='name-container'>
             <h3>{city.name}</h3>
-            {
-                cardStyle === "top-city-card" && <p>{city.property_count} Properties</p>
-            }
+            <p>{city.property_count} Properties</p>
         </div>
-        
-    </div>
   )
 }
 
