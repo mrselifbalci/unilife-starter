@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../../Components/Banner/Banner'
 import CityButton from '../../Components/CityButton/CityButton'
 import axios from 'axios'
+import './SeeAllCities.css'
 
 function SeeAllCities() {
 

@@ -1,0 +1,11 @@
+.city-buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city-buttons-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
