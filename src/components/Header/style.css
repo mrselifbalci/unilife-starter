@@ -1,0 +1,35 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #00A2E1;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 100px;
+}
+
+.nav-item {
+    display: flex;
+    column-gap: 10px;
+}
+
+.nav-item img {}
+
+#logo {
+    height: 29.6px;
+    width: 40.85px;
+    padding-left: 8px;
+    padding-right: 20px;
+}
+
+#branding {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
