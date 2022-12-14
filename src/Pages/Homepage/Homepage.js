@@ -9,11 +9,12 @@ import Banner from '../../Components/Banner/Banner'
 import person from '../../assets/person.png'
 import best from '../../assets/Best-Selection.svg'
 import favorite from '../../assets/Favorite.svg'
+import { Link } from 'react-router-dom'
 
 
 
 function Homepage() {
-
+  const baseUrl = "https://unilife-server.herokuapp.com"
   //create state for cities
   const [topCities, setTopCities] = React.useState([])
 
@@ -21,7 +22,7 @@ function Homepage() {
   React.useEffect(
     ()=>{
       //call api to get cities
-      axios.get('https://unilife-server.herokuapp.com/cities')
+      axios.get(`${baseUrl}/cities`)
       .then(res =>{
         console.log(res.data.response);
         setTopCities(res.data.response.slice(0,9))
@@ -47,7 +48,9 @@ function Homepage() {
           topCities.map(item=> <CityCard city={item}/>)
         }
       </div>
-      <button>See All Cities</button>  
+      <Link to={'/seeallcities'}>
+      <button>See All Cities</button>
+      </Link>  
       <div className='inclusive-outside-wrapper'>
         <div className='inclusive-container'>
             <h2>Compare all inclusive student homes.</h2>
