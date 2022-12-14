@@ -16,7 +16,8 @@ function CityCard({city}) {
         height:"300px",
         color:"white",
         borderRadius:"24px",
-        margin: "16px"
+        margin: "16px",
+        position: "relative"
     }
 
   return (
@@ -24,7 +25,7 @@ function CityCard({city}) {
         <div style={imageStyle} className='name-container'>
             <h3>{city.name}</h3>
             <p>{city.property_count} Properties</p>
-        </div>
+          </div>
     </Link>
   )
 }

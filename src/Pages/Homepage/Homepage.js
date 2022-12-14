@@ -33,7 +33,8 @@ function Homepage() {
 
   return (
     <div className='homepage-container'>
-      <Banner />
+      <Banner title="Find student homes with bills included"
+      description="A simple and faster way to search for student accommodation"/>
       {/* {
         cities.map(item => <p>{item.name}</p>)
       } */}

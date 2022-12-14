@@ -24,7 +24,7 @@ function SeeAllCities() {
   return (
     <div className='see-all-cities-container'>
       <Banner 
-      title="Student Accomodation"
+      title="Student Accommodation"
       description="UniLife have student accommodation available across the UK.
       Whatever you’re after, we can help you find the right student accommodation for you."/>
       <div className='city-buttons-container'>

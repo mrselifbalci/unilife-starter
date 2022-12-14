@@ -2,6 +2,7 @@ import axios from 'axios';
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import Banner from '../../Components/Banner/Banner'
+import PropertyCard from '../../Components/PropertyCard/PropertyCard';
 
 
 function CityDetails() {
@@ -16,7 +17,7 @@ function CityDetails() {
   const [properties, setProperties] = React.useState([])
 
   const {cityId} = useParams();
-  console.log(cityId);
+  // console.log(cityId);
 
   //call api to get city details
   React.useEffect (
@@ -34,7 +35,19 @@ function CityDetails() {
 
   return (
     <div className='city-details-container'>
-      <Banner />
+      <Banner title="Search Accommodation"
+      description="Whatever you're after, we can help you find the right student accommodation for you"/>
+      <div className='filter-container'>
+        <p>Filter placeholder</p>
+      </div>
+      <div className='properties-wrapper'>
+        <h2>{`${totalProperties} in city placeholder`}</h2>
+        <div className='properties-container'>
+          {
+            properties.map(item => <PropertyCard property={item} />)
+          }
+        </div>
+      </div>
     </div>
   )
 }
