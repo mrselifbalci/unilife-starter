@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './CityButton.css'
 
 function CityButton({city}) {
@@ -15,8 +16,10 @@ function CityButton({city}) {
 
   return (
     <div className='city-button-wrapper'>
+        <Link to="">
         <button className='button'
         style={buttonStyle}>{city.name}</button>
+        </Link>
     </div>
   )
 }

@@ -1,0 +1,19 @@
+
+.banner-overlay{
+    background: radial-gradient(circle, rgba(0,0,0,0.5034802784222738) 0%, rgba(0,0,0,0.49651972157772617) 100%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+.banner-text{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 600px;
+    top: 45%;
+    left: 20%;
+}

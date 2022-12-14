@@ -1,0 +1,12 @@
+.city-buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.city-buttons-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
