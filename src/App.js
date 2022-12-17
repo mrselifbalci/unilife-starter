@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import Socialize from './Components/Socialize/Socialize';
 import SeeAllCities from './Pages/SeeAllCities/SeeAllCities';
 import CityDetails from './Pages/CityDetails/CityDetails';
+import HomeDetails from './Pages/HomeDetails/HomeDetails';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/' element={<Homepage />}/>
           <Route path='/seeallcities' element={<SeeAllCities />} />
           <Route path='/citydetails/:cityId' element={<CityDetails />} />
+          <Route path='/homedetails/:homeId' element={<HomeDetails />} />
         </Routes>
         <Socialize />
         <Footer />
