@@ -3,6 +3,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import Banner from '../../Components/Banner/Banner'
 import PropertyCard from '../../Components/PropertyCard/PropertyCard';
+import './CityDetails.css'
 
 
 function CityDetails() {
