@@ -3,6 +3,7 @@
     height: 500px;
     border: 1px solid gray;
     border-radius: 24px;
+    margin: 40px;
 }
 
 .property-image img{
@@ -13,7 +14,15 @@
 
 .property-price{
     background: #3A5295;
+    color: white;
     height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:-5px;
+}
+
+.beds, .baths{
     display: flex;
     align-items: center;
 }
@@ -37,7 +46,7 @@
 
 .property-view{
     height: 48px;
-    border: 1px solid gray;
+    border-top: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
