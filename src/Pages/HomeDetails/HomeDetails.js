@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import './HomeDetails.css'
+import {AiOutlineLeft} from 'react-icons/ai'
 
 
 function HomeDetails() {

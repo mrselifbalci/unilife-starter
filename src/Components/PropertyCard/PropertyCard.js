@@ -12,6 +12,8 @@ function PropertyCard({property}) {
     //activate useNavigate
     let navigate = useNavigate();
 
+    // console.log(property._id);
+
   return (
     <div className='property-container'>
         <div className='property-image'>
@@ -44,7 +46,7 @@ function PropertyCard({property}) {
             </div>
         </div>
         <div className='property-view'
-            onClick={()=>navigate(`/homedetails/${property.id}`)} >
+            onClick={()=>navigate(`/homedetails/${property._id}`)} >
             <img src={home} alt="home icon" />
             <h4>&nbsp;&nbsp;View Home</h4>
         </div>
