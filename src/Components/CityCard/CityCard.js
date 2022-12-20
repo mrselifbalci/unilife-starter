@@ -22,10 +22,13 @@ function CityCard({city}) {
 
   return (
     <Link to={`/citydetails/${city._id}`}>
-        <div style={imageStyle} className='name-container'>
+        <div style={imageStyle}>
+          <div className='city-card-overlay'></div>
+          <div className='name-container'>
             <h3>{city.name}</h3>
             <p>{city.property_count} Properties</p>
           </div>
+        </div>
     </Link>
   )
 }
