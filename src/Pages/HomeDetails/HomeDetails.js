@@ -46,7 +46,7 @@ function HomeDetails() {
           <div className='features-container'>
             <h4>Key Features</h4>
             {
-              property.key_features.map(item=> <p><AiOutlineCheck />&nbsp;{item}</p>)
+              property?.key_features?.map(item=> <p><AiOutlineCheck />&nbsp;{item}</p>)
             }
           </div>
         </div>
