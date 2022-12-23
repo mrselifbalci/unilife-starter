@@ -4,6 +4,8 @@ import './HomeDetails.css'
 import {AiOutlineLeft, AiOutlineCheck} from 'react-icons/ai'
 import axios from 'axios'
 import favorite from '../../assets/Favorite.svg'
+import BedroomPrices from '../../Components/BedroomPrices/BedroomPrices'
+import PropertyImages from './../../Components/PropertyImages/PropertyImages';
 
 
 function HomeDetails() {
@@ -37,7 +39,7 @@ function HomeDetails() {
       <div className='home-detail-wrapper'>
         <div className='home-detail-left-container'>
           <div className='home-detail-images'>
-            
+            <PropertyImages property={property} />
           </div>
           <div className='description-container'>
             <h4>Description</h4>
@@ -46,7 +48,7 @@ function HomeDetails() {
           <div className='features-container'>
             <h4>Key Features</h4>
             {
-              property?.key_features?.map(item=> <p><AiOutlineCheck />&nbsp;{item}</p>)
+              property?.key_features?.map(item=> <p><AiOutlineCheck key={property._id}/>&nbsp;{item}</p>)
             }
           </div>
         </div>
@@ -64,7 +66,7 @@ function HomeDetails() {
           <div className='bedroom-price-container'>
             <h4>Bedroom Prices</h4>
             <div className='price-wrapper'>
-              
+              <p>{property?.bedroom_prices?.bedroom_one}</p>              
             </div>
           </div>
         </div>
