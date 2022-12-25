@@ -66,7 +66,8 @@ function HomeDetails() {
           <div className='bedroom-price-container'>
             <h4>Bedroom Prices</h4>
             <div className='price-wrapper'>
-              <p>{property?.bedroom_prices?.bedroom_one}</p>              
+              {/* <p>{property?.bedroom_prices?.bedroom_one}</p> */}
+              
             </div>
           </div>
         </div>

@@ -10,6 +10,7 @@ import person from '../../assets/person.png'
 import best from '../../assets/Best-Selection.svg'
 import favorite from '../../assets/Favorite.svg'
 import { Link } from 'react-router-dom'
+import CityBedroomSearch from '../../Components/CityBedroomSearch/CityBedroomSearch'
 
 
 
@@ -39,7 +40,8 @@ function Homepage() {
         cities.map(item => <p>{item.name}</p>)
       } */}
       <div className='search-container'>
-        <p>Search Container Placeholder</p>
+        {/* <p>Search Container Placeholder</p> */}
+        <CityBedroomSearch />
       </div>
       <div className='acommodations-wrapper'>
         <h3>Student accomodations in our top cities</h3>
