@@ -1,0 +1,22 @@
+.property-images-container{
+    width:620px;
+}
+
+.large-image-container img {
+    width:620px;
+    height:400px;
+    border-radius:24px;
+}
+
+.smaller-images-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    margin-bottom: 80px;
+}
+
+.smaller-images-container img{
+    width:196px;
+    height:140px;
+    border-radius:12px;
+}
