@@ -18,6 +18,7 @@ function Homepage() {
   const baseUrl = "https://unilife-server.herokuapp.com"
   //create state for cities
   const [topCities, setTopCities] = React.useState([])
+  
 
   //call api when the component loads
   React.useEffect(
@@ -39,11 +40,11 @@ function Homepage() {
       {/* {
         cities.map(item => <p>{item.name}</p>)
       } */}
-      <div className='search-container'>
+      <div className='citybedrooms-search-container'>
         {/* <p>Search Container Placeholder</p> */}
         <CityBedroomSearch />
       </div>
-      <div className='acommodations-wrapper'>
+      <div className='accommodations-wrapper'>
         <h3>Student accomodations in our top cities</h3>
       </div>
       <div className='top-cities-wrapper'>
@@ -51,9 +52,11 @@ function Homepage() {
           topCities.map(item=> <CityCard city={item}/>)
         }
       </div>
-      <Link to={'/seeallcities'}>
-      <button>See All Cities</button>
-      </Link>  
+      <div className='cities-button-container'>
+        <Link to={'/seeallcities'}>
+        <button className='all-cities-button'>See All Cities</button>
+        </Link>  
+      </div>
       <div className='inclusive-outside-wrapper'>
         <div className='inclusive-container'>
             <h2>Compare all inclusive student homes.</h2>
@@ -92,7 +95,7 @@ function Homepage() {
                 <p>Shortlist your favorite properties and send enquiries in one click.</p>
             </div>
           </div>
-          <button>Search & Compare</button>
+          <button className='search-compare-button'>Search & Compare</button>
         </div>
         <div className='search-image'>
           <img src={person} alt="Person on cell phone" />

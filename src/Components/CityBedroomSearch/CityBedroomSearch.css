@@ -1,0 +1,30 @@
+.city-bedrooms-search-container{
+    position: absolute;
+    width: 67%;
+    height: 128px;
+    left: 20%;
+    top: 476px;
+    z-index: 2;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.city-bedrooms-search-container select{
+    width: 25%;
+    height: 33%;
+    background: #FFFFFF;
+    border: 1px solid #CED3D8;
+    border-radius: 12px;
+}
+
+.city-bedrooms-search-container button{
+    background: #3A5295;
+    color: white;
+    border-radius: 12px;
+    width: 25%;
+    height: 33%;
+}
