@@ -4,6 +4,8 @@ import { useParams } from 'react-router-dom'
 import Banner from '../../Components/Banner/Banner'
 import PropertyCard from '../../Components/PropertyCard/PropertyCard';
 import './CityDetails.css'
+import PropertySearch from './../../Components/PropertySearch/PropertySearch';
+
 
 
 function CityDetails() {
@@ -39,7 +41,7 @@ function CityDetails() {
       <Banner title="Search Accommodation"
       description="Whatever you're after, we can help you find the right student accommodation for you"/>
       <div className='filter-container'>
-        <p>Filter placeholder</p>
+        <PropertySearch />
       </div>
       <div className='properties-wrapper'>
         <h2>{`${totalProperties} in city placeholder`}</h2>
