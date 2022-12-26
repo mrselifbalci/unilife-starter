@@ -1,16 +1,39 @@
+.accommodations-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
 .top-cities-wrapper{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .top-card{
     margin: 40px;
 }
 
+.cities-button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 80px;
+}
+
+.all-cities-button{
+    background: #3A5295;
+    color: white;
+    border-radius: 12px;
+    width: 200px;
+    height: 48px;
+}
+
 .inclusive-outside-wrapper{
     width:100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
 .inclusive-container{
@@ -36,4 +59,46 @@
     width: 250px;
     height: 200px;
     text-align: center;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.best-selection-wrapper,
+.favorite-wrapper{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.best-selection-wrapper img,
+.favorite-wrapper img{
+    margin-right: 32px;
+}
+
+.best-selection-text h4,
+.favorite-text h4{
+    margin-bottom: 12px;
+}
+
+.search-compare-button{
+    background: #3A5295;
+    color:white;
+    border-radius: 12px;
+    width: 240px;
+    height: 48px;
+}
+
+.search-image{
+    width: 456px;
+    height: 493.58px;
 }

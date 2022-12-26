@@ -45,7 +45,8 @@ function CityDetails() {
         <h2>{`${totalProperties} in city placeholder`}</h2>
         <div className='properties-container'>
           {
-            properties.map(item => <PropertyCard property={item} />)
+            properties.map(item => <PropertyCard 
+              key={item._id} property={item} />)
           }
         </div>
       </div>
