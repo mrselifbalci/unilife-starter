@@ -26,7 +26,7 @@ function Homepage() {
       //call api to get cities
       axios.get(`${baseUrl}/cities`)
       .then(res =>{
-        console.log(res.data.response);
+        // console.log(res.data.response);
         setTopCities(res.data.response.slice(0,9))
       })
       .catch(err => console.log(err))
@@ -49,7 +49,8 @@ function Homepage() {
       </div>
       <div className='top-cities-wrapper'>
         {
-          topCities.map(item=> <CityCard city={item}/>)
+          topCities.map(item=> <CityCard 
+                        key={item._id} city={item}/>)
         }
       </div>
       <div className='cities-button-container'>

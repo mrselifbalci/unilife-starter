@@ -40,7 +40,7 @@ function CityDetails() {
     <div className='city-details-container'>
       <Banner title="Search Accommodation"
       description="Whatever you're after, we can help you find the right student accommodation for you"/>
-      <div className='filter-container'>
+      <div className='filter-box-container'>
         <PropertySearch />
       </div>
       <div className='properties-wrapper'>

@@ -39,7 +39,7 @@ function HomeDetails() {
       <div className='home-detail-wrapper'>
         <div className='home-detail-left-container'>
           <div className='home-detail-images'>
-            <PropertyImages property={property} />
+            <PropertyImages image={property} />
           </div>
           <div className='description-container'>
             <h4>Description</h4>

@@ -21,9 +21,9 @@ function PropertySearch() {
             <label for="bathroom">Bathroom</label>
             <select id="bathroom" name="bathroom">
                 <option value="any bathroom">Any bathroom</option>
-                <option value="saab">Saab</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
+                <option value="1">1 Bathroom</option>
+                <option value="2">2 Bathrooms</option>
+                <option value="3">3 Bathrooms</option>
             </select> 
         </div>
         <div className='filter-item'>
@@ -38,10 +38,10 @@ function PropertySearch() {
         <div className='filter-item'>
             <label for="type">Home Type</label>
             <select id="type" name="type">
-                <option value="any type">Any type</option>
-                <option value="saab">Saab</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
+                <option value="any type">Any home type</option>
+                <option value="detached">Detached</option>
+                <option value="semi-detached">Semi-Detached</option>
+                <option value="apartment">Apartment</option>
             </select>
         </div>
     </div>
