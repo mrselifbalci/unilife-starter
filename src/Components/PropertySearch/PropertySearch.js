@@ -30,9 +30,12 @@ function PropertySearch() {
             <label for="price">Max Price</label>
             <select id="price" name="price">
                 <option value="any price">Any price</option>
-                <option value="saab">Saab</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
+                <option value="500">500</option>
+                <option value="1000">1000</option>
+                <option value="1500">1500</option>
+                <option value="2000">2000</option>
+                <option value="2500">2500</option>
+                <option value="3000">3000</option>
             </select> 
         </div>
         <div className='filter-item'>

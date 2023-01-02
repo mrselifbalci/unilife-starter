@@ -16,6 +16,8 @@ function HomeDetails() {
 
   //create state for property info
   const [property, setProperty] = React.useState([])
+  //create state for property images
+  const [propertyImages, setPropertyImages] = React.useState([])
 
   
   React.useEffect(
@@ -25,6 +27,7 @@ function HomeDetails() {
       .then(res=>{
         // console.log(res.data)
         setProperty(res.data)
+        setPropertyImages(res.data?.images)
       })
       .catch(err=>console.log(err))
     }, []
@@ -39,11 +42,11 @@ function HomeDetails() {
       <div className='home-detail-wrapper'>
         <div className='home-detail-left-container'>
           <div className='home-detail-images'>
-            <PropertyImages image={property} />
+            <PropertyImages images={propertyImages} />
           </div>
           <div className='description-container'>
             <h4>Description</h4>
-            <p>{property.property_description}</p>
+            <p>{property?.property_description}</p>
           </div>
           <div className='features-container'>
             <h4>Key Features</h4>
