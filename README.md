@@ -21,7 +21,7 @@ Create a responsive multi-page app using react-router to display data fetched fr
 
 ## Resources
 - [Link to API](https://unilife-server.herokuapp.com)
-- [Link to Figma](https://www.figma.com/file/5jw7GzTSMxZ5A9H9FjDYRR/UniLife?node-id=0%3A1) 
+- [Link to Figma](https://www.figma.com/file/Sn5caRds8rHtoOq6sLfrc0/UniLife-(Updated)?node-id=0-1&t=xgk1J9aypfbpT3Ap-0) 
 
 ## Criteria for Assessment
 
